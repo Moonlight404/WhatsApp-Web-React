@@ -1,3 +1,8 @@
+Photos
+![alt text](https://github.com/Moonlight404/WhatsApp-Web-React/blob/master/example/Home.png?raw=true)
+![alt text](https://github.com/Moonlight404/WhatsApp-Web-React/blob/master/example/Edit.png?raw=true)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
