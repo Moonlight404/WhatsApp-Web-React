@@ -38,7 +38,7 @@ class LeftBar extends React.Component {
          {Contatos.map((contato, index) => (
         <li key={index}>
           <Contact
-          name={contato.name}></Contact>
+          name={contato.name} avatar={contato.avatar}></Contact>
         </li>
         ))}
         </div>
