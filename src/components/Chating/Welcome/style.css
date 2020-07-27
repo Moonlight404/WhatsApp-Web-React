@@ -1,0 +1,14 @@
+.center{
+    background: #f8f9fb;
+    position: absolute;
+    width: calc(100% - 302px);
+    right: 0px;
+    height: 100%;
+}
+
+.svg-welcome{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    transform: translate(50%, 56%);
+}

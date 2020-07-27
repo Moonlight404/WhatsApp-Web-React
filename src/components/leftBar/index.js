@@ -21,7 +21,7 @@ class LeftBar extends React.Component {
       <div className="leftBar">
         <div className={"changeAvatar "+ (this.state.changePhoto ? 'ativo' : 'hidden')}>
           <span className="back" onClick={() => { this.handleClick() }}>
-          <i class="fas fa-chevron-left"></i>     Voltar</span>
+          <i className="fas fa-chevron-left"></i>     Voltar</span>
           <div className="avatar">
             <img src="https://jornalggn.com.br/wp-content/plugins/ultimate-member/assets/img/default_avatar.jpg"/>
           </div>
