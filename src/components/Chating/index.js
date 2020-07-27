@@ -6,12 +6,12 @@ class Chating extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      changePhoto: false
+      chating: false
     }
   }
   render(){
     return <div className="chating">
-        <Welcome></Welcome>
+        { !this.state.chating && <Welcome></Welcome> }
     </div>
   };
 }
