@@ -26,12 +26,12 @@ class LeftBar extends React.Component {
             <img src="https://jornalggn.com.br/wp-content/plugins/ultimate-member/assets/img/default_avatar.jpg"/>
           </div>
         </div>
-        <div className="header" onClick={() => { this.handleClick() }}>
-          <div className="avatar">
+        <div className="header">
+          <div className="avatar" onClick={() => { this.handleClick() }}>
             <img src="https://jornalggn.com.br/wp-content/plugins/ultimate-member/assets/img/default_avatar.jpg"/>
           </div>
           <div className="name">
-            { Contatos[0].name}
+            
           </div>
         </div>
         <div className="contatos">
