@@ -1,0 +1,27 @@
+[
+    {
+        "id": 0,
+        "name" : "Alexandre", 
+        "avatar": "https://jornalggn.com.br/wp-content/plugins/ultimate-member/assets/img/default_avatar.jpg"
+    },
+    {
+        "id": 1,
+        "name" : "João", 
+        "avatar": "https://jornalggn.com.br/wp-content/plugins/ultimate-member/assets/img/default_avatar.jpg"
+    },
+    {
+        "id": 2,
+        "name" : "João", 
+        "avatar": "https://jornalggn.com.br/wp-content/plugins/ultimate-member/assets/img/default_avatar.jpg"
+    },
+    {
+        "id": 3,
+        "name" : "Joaquin", 
+        "avatar": "https://jornalggn.com.br/wp-content/plugins/ultimate-member/assets/img/default_avatar.jpg"
+    },
+    {
+        "id": 4,
+        "name" : "Antonio", 
+        "avatar": "https://jornalggn.com.br/wp-content/plugins/ultimate-member/assets/img/default_avatar.jpg"
+    }
+]

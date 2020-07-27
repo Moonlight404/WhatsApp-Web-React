@@ -1,0 +1,97 @@
+.leftBar{
+    width: 300px;
+    position: fixed;
+    height: 100%;
+    background: #fff;
+    border-right: 1px solid #e8e8e8;
+    overflow: hidden;
+}
+
+.header{
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    background-color: #eeeeee;
+    cursor: pointer;
+    user-select: none;
+}
+
+.header .avatar{
+    display: flex;
+    width: 45px;
+    height: 45px;
+    margin: 20px;
+}
+
+.header .avatar img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.header .name{
+    display: flex;
+    flex-direction: column;
+    margin: -50px;
+}
+
+.contatos{
+    margin-top: 43px;
+    left: 0px;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: calc(100% - 43px);
+}
+
+::-webkit-scrollbar-thumb{
+    background: #eee;
+}
+
+.changeAvatar{
+    width: 100%;
+    background: #eee;
+    height: 100%;
+    position: absolute;
+    border-right: 1px solid #e8e8e8;
+    z-index: 1000;
+    transform: translateX(-200%);
+    transition: 0.7s ease;
+}
+
+.changeAvatar::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(0, 191, 165);
+    left: 0px;
+    z-index: -1;
+}
+
+.changeAvatar .back{
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 20px;
+    font-weight: bold;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.changeAvatar .back i{
+    margin-right: 20px;
+}
+
+.changeAvatar .avatar{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 20%;
+    transform: scale(1.4);
+    left: 20%;
+}
+
+.ativo{
+    transform: translateX(0);
+}
